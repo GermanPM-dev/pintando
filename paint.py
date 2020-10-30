@@ -3,7 +3,7 @@ from freegames import vector
 
 
 def line(start, end):
-    "Draw line from start to end."
+    "Dibujar línea"
     up()
     goto(start.x, start.y)
     down()
@@ -11,7 +11,7 @@ def line(start, end):
 
 
 def square(start, end):
-    "Draw square from start to end."
+    "Dibujar cuadrado."
     up()
     goto(start.x, start.y)
     down()
@@ -25,7 +25,7 @@ def square(start, end):
 
 
 def thecircle(start, end):
-    "Draw circle from start to end."
+    "Dibujar círculo"
     up()
     goto(start.x, start.y)
     down()
@@ -35,7 +35,7 @@ def thecircle(start, end):
 
 
 def rectangle(start, end):
-    "Draw rectangle from start to end."
+    "Dibujar rectángulo"
     up()
     goto(start.x, start.y)
     down()
@@ -51,7 +51,7 @@ def rectangle(start, end):
 
 
 def triangle(start, end):
-    "Draw triangle from start to end."
+    "Dibujar triángulo"
     up()
     goto(start.x, start.y)
     down()
